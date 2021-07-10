@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import TextPartMain from './TextPartMain';
 import ButtonNormal from './Button';
 import './App.css';

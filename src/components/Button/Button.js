@@ -38,17 +38,17 @@ export default function ButtonNormal(type) {
     console.log(classes);
 
     if ('size' in type) {
-        classes = classes + " " + type.size;
+        classes = (classes + " " + type.size);
     }
 
     if ('color' in type) {
-        classes = classes + " " + type.color;
+        classes = (classes + " " + type.color);
         if (!(type.color === "primary"))
             innertext = type.color.charAt(0).toUpperCase() + type.color.slice(1);
     }
 
     if ('startIcon' in type) {
-        classes = classes + " " + "icon";
+        classes = (classes + " " + type.icon);
         return (
             <button className={classes}>
                 <MdShoppingCart /> {innertext}
@@ -57,7 +57,7 @@ export default function ButtonNormal(type) {
     }
 
     if ('endIcon' in type) {
-        classes = classes + " " + "icon";
+        classes = (classes + " " + type.icon);
         return (
             <button className={classes}>
                 {innertext}  <MdShoppingCart />
