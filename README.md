@@ -48,6 +48,8 @@ Challenge was to create diiferent **_button components_** following the design g
   </ul>
 </p>
 
+[![deployment](https://img.shields.io/badge/deployment-success-yellow)](https://lostgirljourney.github.io/Button-Component-Challenge/)
+
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
