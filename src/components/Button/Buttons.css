@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+.btn,
+.md,
+.primary {
+  width: 81px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3d5afe;
+  color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #0039cb;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.normal,
+.default {
+  background-color: #e0e0e0;
+  color: #3f3f3f;
+}
+
+.normal:hover,
+.default:hover {
+  background-color: #aeaeae !important;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2) !important;
+}
+
+.outline {
+  border: 1px solid #3d5afe;
+  border-radius: 6px;
+  color: #3d5afe;
+  background-color: #ffffff;
+}
+
+.text:not(:hover) {
+  border: none;
+  color: #3d5afe;
+  background-color: #ffffff !important;
+}
+
+.text:hover,
+.outline:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+  box-shadow: none !important;
+  color: #3d5afe;
+}
+
+.disableShadow,
+.disableShadow:hover {
+  background-color: #3d5afe;
+  color: #ffffff;
+  box-shadow: none !important;
+}
+
+.disabled {
+  background-color: #e0e0e0;
+  color: #9e9e9e !important;
+  cursor: default;
+  box-shadow: none !important;
+}
+
+.disabled:hover {
+  background-color: #e0e0e0 !important;
+  color: #9e9e9e !important;
+}
+
+.icon {
+  width: 105px;
+  height: 36px;
+}
+
+.sm {
+  width: 73px;
+  height: 32px;
+}
+
+.lg {
+  width: 93px;
+  height: 42px;
+}
+
+.secondary {
+  background: #455a64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.secondary:hover {
+  background: #1c313a;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.danger {
+  background: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+
+.danger:hover {
+  background: #9a0007;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
